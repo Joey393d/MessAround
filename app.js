@@ -1,1 +1,5 @@
-var snd = new Audio("/mp4/yahaha.mp3");
+const soundBtn = document.querySelector('.play-sound-btn');
+let myAudio = document.querySelector('#audio');
+soundBtn.addEventListener('click',()=>{
+    myAudio.play();
+});

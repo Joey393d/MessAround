@@ -1,0 +1,1 @@
+var snd = new Audio("/mp4/yahaha.mp3");

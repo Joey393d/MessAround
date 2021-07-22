@@ -6,37 +6,34 @@
         <meta name="viewport"
         content="width=device-width, initial-scale=1">
         
-        <style>
-            .button {
-                padding: 15px 25px;
-                font-size: 24px;
-                text-align: center;
-                cursor: pointer;
-                outline: none;
-                color: #fff;
-                background-color: #04AA6D;
-                border: none;
-                border-radius: 15px;
-                box-shadow: 0 9px #999;
+        <style type="text/css">
+            #submit {
+             background-color: red;
+             padding: .5em;
+             -moz-border-radius: 5px;
+             -webkit-border-radius: 5px;
+             border-radius: 6px;
+             color: #fff;
+             font-family: 'Oswald';
+             font-size: 20px;
+             text-decoration: none;
+             border: none;
             }
-
-            .button:hover {background-color: #3e8e41;}
-
-            .button:active {
-                background-color: #3e841;
-                box-shadow: 0 5px #666;
-                transform: translateY(4px) }
-                button:active + embed {display: square; }
-            embed { display: none;}
+            #submit:hover {
+             border: none;
+             background: crimson;
+             box-shadow: 0px 0px 1px #777;
+            }
+            </style>
             
             
        
-        </style>
+        
         
      </head>
 <body>
     <audio src="yahaha.mp3" id="audio"></audio>
-    <button type="button" class="play-sound-btn"> 
+    <button id="submit" type="button" class="play-sound-btn"> 
         Play Sound
         
         </button>
